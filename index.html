@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="src/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <section class="container flex" id="header">
+                <h1 class="title">Find your film</h1>
+                <a href="myWatchlist.html">My Watchlist</a>
+            </section>
+        </header>
+
+        <form class="flex background" id="search-form">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Blade Runner" name="search-name">
+            <button type="submit">Search</button>
+        </form>
+
+        <main>
+            <section class="container flex" id="search-results">
+                <div class="icon-container flex">
+                    <i class="fa-solid fa-film" id="file-logo"></i>
+                </div>     
+                <h2>Start exploring</h2>
+            </section>
+        </main>
+
+        <script src="src/index.js" type="module"></script>
+    </body>
+</html> 

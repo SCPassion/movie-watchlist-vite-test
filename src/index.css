@@ -1,0 +1,239 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* semantic html */
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    background-color:darkslategray;
+    font-family: "Inter", serif;
+    width: 550px;
+    height: 779px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/* header */
+
+header {
+    /* opacity: 20%; */
+    background-image: url("../public/images/background.png");
+    background-size: cover;
+    background-size: 100%;
+    background-position: top 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    /* position: fixed; */
+    top: 0;
+    /* width: 100%; */
+    /* z-index: 1; */
+}
+
+header section {
+    height: 208px;
+}
+
+#header{
+    justify-content: space-between;
+}
+
+/* container */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 0 2.625em;
+}
+
+/* main */
+
+main {
+    background-color: #121212;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+main section {
+    /* height: 571px; */
+    flex-direction: column;
+}
+
+.icon-container {
+    width: 70px;
+    height: 61.25px;
+    margin-top: 211px;
+}
+
+#search-results {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#file-logo {
+    font-size: 3.8rem;
+    color: #787878;
+}
+
+/* typography */
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 2.674375rem;
+}
+
+h2 {
+    margin: 0.5rem 0 15.6875rem 0;
+    text-align: center;
+}
+
+main h2 {
+    color: #787878;
+}
+h3 {
+    font-size: 1.125rem;
+    margin-bottom: 11px;
+    margin-top: 0;
+
+}
+
+/* Anchor */
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.875rem;
+    opacity: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+/* form element decloration */
+form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 190px;
+    width: 100%;
+    /* height: 38px; */
+}
+
+button {
+    font-size: 0.875rem;
+    padding: 8.5px 34px;
+    border: none;
+    background-color: #4B4B4b;
+    color: #FFFFFF;
+    border-radius: 0 6px 6px 0;
+
+}
+
+input {
+    padding: 9px 10px;
+    border: none;
+    color: #A5A5A5;
+}
+
+form i {
+    padding: 9.5px 15px;
+    border-radius: 6px 0 0 6px;
+}
+
+input, button{
+    font-family: "Inter", serif;
+
+}
+
+input, form i {
+    background-color: #2e2e2f;
+}
+
+/* movie */
+
+.movie-item {
+    display: flex;
+    gap: 1.3125em;
+    width: 100%;
+}
+
+.poster-container {
+    width: 99px;
+    height: 147.41px;
+}
+
+.poster {
+    width: 100%;
+}
+
+.movie-description {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.movie-title {
+    display: flex;
+    gap: 4px;
+}
+
+.movie-description p , .movie-description i{
+    font-size: 12px;
+    margin: 0;
+    display: inline;
+}
+
+.star {
+    color: #FEC654;
+}
+
+.movie-meta{
+    display: flex;
+    gap: 1.125em;
+    margin-bottom: 8px;
+}
+
+article {
+    font-size: 14px;
+    color: #a5a5a5;
+}
+
+.divider {
+    width: 100%;
+    margin: 1.40625em 0 1.5625em 0;
+}
+
+.add-watchlist {
+    cursor: pointer;
+}
+
+.add-watchlist:hover {
+    color: orange;
+}
+
+.add-watchlist:active {
+    color: green;
+}
+
+.remove-watchlist {
+    cursor: pointer;
+}
+
+.remove-watchlist:hover {
+    color: orange;
+}
+
+.remove-watchlist:active {
+    color: red;
+}
