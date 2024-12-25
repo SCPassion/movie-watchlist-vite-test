@@ -20,7 +20,7 @@ html, body {
 
 header {
     /* opacity: 20%; */
-    background-image: url("./public/images/background.png");
+    background-image: url("/images/background.png");
     background-size: cover;
     background-size: 100%;
     background-position: top 200px;
